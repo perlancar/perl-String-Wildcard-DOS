@@ -53,9 +53,7 @@ plan to add to this module.
 =head1 SEE ALSO
 
 L<Regexp::Wildcards> to convert a string with wildcard pattern to equivalent
-regexp pattern. Can handle Unix wildcards as well as SQL and DOS/Win32. As of
-this writing (v1.05), it does not handle character class (C<[...]>) and
-interprets brace expansion differently than bash.
+regexp pattern. Can handle Unix wildcards as well as SQL and DOS/Win32.
 
 Other C<String::Wildcard::*> modules.
 
