@@ -1,10 +1,11 @@
 package String::Wildcard::DOS;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
-
-# VERSION
 
 use Exporter;
 our @ISA = qw(Exporter);
@@ -42,12 +43,6 @@ sub contains_wildcard {
 Return true if C<$str> contains DOS wildcard pattern. Wildcard patterns include
 C<*> (meaning zero or more characters), C<?> (exactly one character). There is
 no backslash escaping mechanism.
-
-
-=head1 TODO
-
-See L<String::Wildcard::Bash>'s TODO for the types of other functions which I
-plan to add to this module.
 
 
 =head1 SEE ALSO
